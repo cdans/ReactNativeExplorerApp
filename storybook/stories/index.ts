@@ -1,1 +1,1 @@
-import './Button/Button.stories';
+import './react-native/Button.stories';
