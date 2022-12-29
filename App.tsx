@@ -3,8 +3,7 @@ import React from "react";
 import {SafeAreaView, StatusBar, useColorScheme} from "react-native";
 import {Colors} from "react-native/Libraries/NewAppScreen";
 
-// eslint-disable-next-line global-require
-const {StorybookUIRoot} = require("./src/storybook");
+import {Main} from "@main";
 
 export default () => {
   const isDarkMode = useColorScheme() === "dark";
@@ -21,7 +20,7 @@ export default () => {
           barStyle={isDarkMode ? "light-content" : "dark-content"}
           backgroundColor={backgroundStyle.backgroundColor}
         />
-        <StorybookUIRoot />
+        <Main />
       </>
     </SafeAreaView>
   );

@@ -17,7 +17,11 @@
     "sourceMap": true,
     "strict": true,
     "target": "es2017",
-    "baseUrl": "src"
+    "baseUrl": ".",
+    "paths": {
+      "@common": ["src/common"],
+      "@main": ["src/main"]
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "**/*.test.tsx", "**/*.spec.ts"],

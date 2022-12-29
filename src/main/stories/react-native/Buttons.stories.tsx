@@ -2,9 +2,8 @@ import React from "react";
 
 import {Button, StyleSheet, Text, View} from "react-native";
 
+import {ExploreButton} from "@common";
 import {storiesOf} from "@storybook/react-native";
-
-import {ExploreButton} from "../../../common/ExploreButton";
 
 const styles = StyleSheet.create({
   seperator: {
